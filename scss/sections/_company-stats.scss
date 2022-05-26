@@ -1,0 +1,17 @@
+.company-stats {
+    padding: 5rem 0;
+    h3 {
+        font-size: 3rem;
+        font-weight: 900;
+    }
+    sup {
+        font-size: 1rem;
+        position: absolute;
+        transform: translateY(30px);
+        padding-left: 5px;
+       
+    }
+    .stats-container {
+        position: relative;
+    }
+}

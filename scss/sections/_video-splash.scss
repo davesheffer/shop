@@ -1,0 +1,37 @@
+.video-splash {
+  background-image: url('/image/video-splash.jpg');
+  display: flex;
+  height: 40rem;
+  margin: 0 5rem;
+  border-radius: 10px;
+  &__container {
+    h2 {
+      color: #fff;
+      width: 800px;
+    }
+    .play-button {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     
+      a {
+        z-index: 40;
+        i {
+          font-size: 5rem;
+          color: #fff
+        }
+      }
+      &::after {
+        position: absolute;
+        content: '';
+        display: block;
+        padding: 3rem;
+        transform: translateX(-5px);
+        background-color: rgba(0, 0, 0, 0.629);
+        z-index: 10;
+        border-radius: 1000px;
+      }
+    }
+  }
+}
