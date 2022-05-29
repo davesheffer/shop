@@ -1,0 +1,25 @@
+.products{
+    &__grid {
+        &-sort{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 3rem;
+          select {
+              width: 30%;
+          }
+        }
+             
+    }
+    .product {
+        &__container{
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        &__image{
+            width: 90%;
+            margin-bottom: 1rem;
+        }
+    }
+    
+}
